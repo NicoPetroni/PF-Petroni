@@ -1,6 +1,6 @@
 # PreEntrega2Petroni
 Se hizo responsive en home y productos. falta terminar responsive en las demas pantallas.
 
-Link Page:
+Link Page:https://nicopetroni.github.io/PreEntrega2Petroni/index.html
 
 Link repositor: https://github.com/NicoPetroni/PreEntrega2Petroni.git
