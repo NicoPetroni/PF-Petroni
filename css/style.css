@@ -86,6 +86,10 @@ header{
 
 /* Termina grid de index */
 
+.galeria{
+        width: 20vw;
+}
+
 .contenedor{
             width: 70%;
             padding: 0px 0px 10px 10px;
