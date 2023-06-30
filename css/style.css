@@ -86,10 +86,6 @@ header{
 
 /* Termina grid de index */
 
-.galeria{
-        width: 20vw;
-}
-
 .contenedor{
             width: 70%;
             padding: 0px 0px 10px 10px;
@@ -222,6 +218,11 @@ footer{
         padding: 6px 30px 0px 30px;
     }
 
+.galeria{
+    width: 20vw;
+    border: 2px solid black;
+    border
+}
 
     footer svg{
         width: 50px;
