@@ -62,7 +62,7 @@ header{
 .template-area{
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: repeat(2,1fr);
-        gap: 10px;
+        column-gap: 15px;
         grid-template-areas: 
                             "im-1 im-2"
                             "im-3 im-4";
@@ -117,6 +117,10 @@ h2{
 h3{
     font-size: 2rem;
     }
+h4{
+    font-size: 2rem;
+    color: black;
+}
 
 p{
     font-size: 2rem;
@@ -213,28 +217,57 @@ div img{
         text-align: center; 
     }
 
-footer{
-        background-color: rgba(255, 20, 147, 0.4);
-        padding: 6px 30px 0px 30px;
+.galeria{
+        width: 20vw;
+        border: 1.5px solid black;
     }
 
-.galeria{
-    width: 20vw;
-    border: 2px solid black;
-    border
-}
+    .logouni{
+        font-size: 40px;
+        color: black;
+        margin-left: 120px;
+    }
 
-    footer svg{
-        width: 50px;
-        height: 50px;
+    /* Footer  */
+     
+footer{
+         display: flex;
+         flex-direction: row;
+         justify-content: space-around;
+         align-items: center;
+         background-color: rgba(255, 20, 147, 0.4);
+    }
+
+.logofoot{
+        font-size: 50px;
         color: black;
     }
 
 footer p{
-        font-size: 2.5rem;
-        font-weight: 250;
+        font-size: 1.5rem;
         color: black;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
     }
+
+.p-p{
+        margin-left: 43px;
+        padding: 0px;
+    }
+
+.log-foot{
+    text-align: center;
+}
+
+.logo_uni{
+    
+}
+
+.tit.alin.{
+    text-align: left;
+}
+
 
 /* Inicia responsive */
 
@@ -253,6 +286,15 @@ footer p{
         .tit{
             text-align: center;
             font-size: 3.5rem;
+        }
+
+        footer{
+            flex-direction: column;
+            padding: 15px;
+        }
+
+        .log-foot{
+            margin: 25px 0px 25px 0px;
         }
 
         h1{
@@ -283,8 +325,16 @@ footer p{
             gap: 0px;
             width: 80%;
         }
-    
-        .footer{
-            flex-direction: column;
-        }
     }
+
+@media (width < 600px){
+    .espacio{
+        margin: 20px;
+    }
+}
+
+@media (width < 451px){
+    .tit_alin{
+        text-align: center;
+    }
+}
