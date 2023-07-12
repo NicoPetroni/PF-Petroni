@@ -3,4 +3,4 @@ Se hizo responsive en home y productos. falta terminar responsive en las demas p
 
 Link Page: https://nicopetroni.github.io/PreEntrega2Petroni/index.html
 
-Link repositor: https://github.com/NicoPetroni/PreEntrega2Petroni.git
+Link repositor: https://github.com/NicoPetroni/PreEntrega3Petroni.git
