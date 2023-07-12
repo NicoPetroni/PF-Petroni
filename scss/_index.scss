@@ -1,7 +1,7 @@
 .grid{
     width: 85%;
     display: grid;
-    background-color: rgb(123, 144, 144);
+    background-color: $colorDos;
     margin: 10px auto;
     padding: 0px 15px 0px 15px;
 
@@ -44,10 +44,15 @@
     }
 
     .bg-body{
-        background-color: rgba(227, 214, 214, .50);
+        background-color: $colorTres;
         margin: 5px auto 25px auto;
     }
 
+    .galeria{
+        width: 20vw;
+        border: 1.5px solid $colorCuat;
+    }
+    
     .nov{
         display: flex;
         flex-direction: row;
@@ -58,6 +63,6 @@
                 text-align: center;
                 padding: 25px 0px 20px 0px;
                 font-size: 2rem;
-                border: 1px;
+                border: 3px;
         }
     }

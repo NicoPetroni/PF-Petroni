@@ -1,6 +1,6 @@
 html{
     font-size: 62.5%;
-    background-color: rgb(255, 255, 255);
+    background-color: $colorBlanco;
 }
 
 header{
@@ -13,7 +13,7 @@ header{
  }
 
  h1{
-    color: rgb(134, 128, 128);
+    color: $colorDos;
     font-size: 5rem;
     text-align: center;
     margin-top: 25px;
@@ -21,7 +21,7 @@ header{
 
 h2{
     font-size: 4rem;
-    color: rgb(161, 138, 109);
+    color: $colorTres;
     text-align: left;
     margin-top: 30px;
     margin-bottom: 10px;
@@ -33,7 +33,7 @@ h3{
 
 h4{
     font-size: 2rem;
-    color:$colorTres;
+    color:$colorCuat;
 }
 
 p{
@@ -66,7 +66,7 @@ footer{
 
     & p{
         font-size: 1.5rem;
-        color:$colorTres;
+        color:$colorCuat;
         text-align: center;
         padding: 0px;
         margin: 0px;
@@ -75,7 +75,7 @@ footer{
 
 .logofoot{
    font-size: 50px;
-   color:$colorTres;
+   color:$colorCuat;
 }
 
 
@@ -88,10 +88,6 @@ footer{
 .log-foot{
 text-align: center;
 }
-
-// .logo_uni{
-
-// }
 
 .tit.alin{
 text-align: left;

@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap");
 html {
   font-size: 62.5%;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(241, 236, 236);
 }
 
 header {
@@ -14,7 +14,7 @@ header img {
 }
 
 h1 {
-  color: rgb(134, 128, 128);
+  color: rgb(120, 144, 144);
   font-size: 5rem;
   text-align: center;
   margin-top: 25px;
@@ -22,7 +22,7 @@ h1 {
 
 h2 {
   font-size: 4rem;
-  color: rgb(161, 138, 109);
+  color: rgb(199, 176, 148);
   text-align: left;
   margin-top: 30px;
   margin-bottom: 10px;
@@ -41,7 +41,7 @@ p {
   font-size: 2rem;
   font-weight: 250;
   line-height: 2.5rem;
-  color: rgb(44, 43, 43);
+  color: rgb(199, 176, 148);
   margin-bottom: 50px;
 }
 
@@ -90,7 +90,7 @@ footer p {
 }
 
 .botonera {
-  background-color: rgba(255, 20, 145, 0.331);
+  background-color: rgba(245, 33, 146, 0.331);
   padding: 6px 30px;
   display: flex;
   flex-direction: row;
@@ -109,7 +109,7 @@ footer p {
 }
 .botonera ul li a {
   text-decoration: none;
-  color: black;
+  color: rgb(199, 176, 148);
   font-size: 1.8rem;
   align-items: right;
 }
@@ -117,11 +117,10 @@ footer p {
 .grid {
   width: 85%;
   display: grid;
-  background-color: rgb(123, 144, 144);
+  background-color: rgb(120, 144, 144);
   margin: 10px auto;
   padding: 0px 15px 0px 15px;
 }
-
 .grid div img {
   width: 100%;
 }
@@ -147,6 +146,64 @@ footer p {
 
 .grid-inde-4 {
   grid-area: im-4;
+}
+
+.descripcion {
+  width: 60%;
+  height: auto;
+  margin: 15px auto 45px auto;
+  text-align: center;
+}
+
+.bg-body {
+  background-color: rgb(199, 176, 148);
+  margin: 5px auto 25px auto;
+}
+
+.galeria {
+  width: 20vw;
+  border: 1.5px solid rgb(44, 43, 43);
+}
+
+.nov {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.nov figure {
+  width: 20%;
+  text-align: center;
+  padding: 25px 0px 20px 0px;
+  font-size: 2rem;
+  border: 3px;
+}
+
+.bg-prod {
+  background-color: rgb(120, 144, 144);
+  padding: 20px 0px;
+}
+
+.tit {
+  text-align: left;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+}
+
+form {
+  font-size: 2rem;
+  display: block;
+}
+
+form input {
+  margin: 8px 0px;
+}
+
+.formas {
+  width: 100%;
+  padding: 35px 0px 10px 0px;
+  text-align: center;
+  justify-content: space-evenly;
 }
 
 @media (width < 1282px) {
