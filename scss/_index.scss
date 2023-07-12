@@ -35,3 +35,29 @@
 .grid-inde-4{
         grid-area: im-4;
     }
+
+.descripcion{
+        width: 60%;
+        height: auto;
+        margin: 15px auto 45px auto;
+        text-align: center; 
+    }
+
+    .bg-body{
+        background-color: rgba(227, 214, 214, .50);
+        margin: 5px auto 25px auto;
+    }
+
+    .nov{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    
+        & figure{
+                width: 20%;
+                text-align: center;
+                padding: 25px 0px 20px 0px;
+                font-size: 2rem;
+                border: 1px;
+        }
+    }
