@@ -1,0 +1,29 @@
+.botonera{
+           background-color: rgba(255, 20, 145, 0.331);
+           padding: 6px 30px;
+           display: flex;
+           flex-direction: row;
+           justify-content: space-between;
+           align-items: self-end;
+
+            img{
+                width: 80px;
+            }
+
+            & ul{
+                list-style: none;
+                display: flex
+            } 
+
+            & ul li{
+                padding-left: 35px;
+            }
+
+            & ul li a{
+                text-decoration: none;
+                color: black;
+                font-size: 1.8rem;
+                align-items: right;               
+            }
+}
+

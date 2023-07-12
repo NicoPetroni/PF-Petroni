@@ -1,0 +1,67 @@
+@media (width < 1282px){
+    nav{ width: 100%;
+    }
+}
+
+@media (width < 1281px){
+    .botonera{
+        margin-right: 50px;
+    }
+}
+
+@media (width < 769px){
+    .tit{
+        text-align: center;
+        font-size: 3.5rem;
+    }
+
+    footer{
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .log-foot{
+        margin: 25px 0px 25px 0px;
+    }
+
+    h1{
+        font-size: 3.5rem;
+    }
+
+    p{
+        font-size: 1.5rem;
+    }
+
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+
+            & img{
+                 width: 60%;
+        }
+    }
+
+    .botonera{
+        align-items: self-end;
+    }
+
+    .grid{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        width: 80%;
+    }
+}
+
+@media (width < 600px){
+    .espacio{
+        margin: 20px;
+    }
+}
+
+@media (width < 451px){
+    .tit_alin{
+        text-align: center;
+    }
+}
