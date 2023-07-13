@@ -15,13 +15,13 @@ header{
 
  h1{
     color: $colorDos;
-    font-size: 5rem;
+    font-size: $text5;
     text-align: center;
     margin-top: 25px;
     }
 
 h2{
-    font-size: 4rem;
+    font-size: $text4;
     color: $colorTres;
     text-align: left;
     margin-top: 30px;
@@ -29,16 +29,16 @@ h2{
     }
 
 h3{
-    font-size: 2rem;
+    font-size: $text2;
     }
 
 h4{
-    font-size: 2rem;
+    font-size: $text2;
     color:$colorCuat;
 }
 
 p{
-    font-size: 2rem;
+    font-size: $text2;
     font-weight: 250;
     line-height: 2.5rem;
     color:$colorTres;
@@ -66,7 +66,7 @@ footer{
     background-color:$colorUno;
 
     p{
-        font-size: 1.5rem;
+        font-size: $text1;
         color:$colorCuat;
         text-align: center;
         padding: 0px;
