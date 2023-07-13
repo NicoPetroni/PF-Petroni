@@ -1,0 +1,24 @@
+@mixin grid($wid, $disp, $bg, $mar, $pad){
+    width: $wid;
+    display: $disp;
+    background-color: $bg;
+    margin: $mar;
+    padding: $pad;
+}
+
+.grid{
+    @include grid(85%, grid, $colorDos, 10px auto, 0px 15px 0px 15px)
+}
+ 
+@mixin temp($col, $row, $Cgap, $areas){
+    grid-template-columns: $col;
+    grid-template-rows: $row;
+    column-gap: $Cgap;
+    grid-template-areas: $areas
+}
+
+.template-area{
+    @include temp(repeat(2,1fr), repeat(2,1fr), 15px, "im-1 im-2" "im-3 im-4")
+}
+
+    

@@ -6,20 +6,20 @@
            justify-content: space-between;
            align-items: self-end;
 
-            & img{
+            img{
                 width: 80px;
             }
 
-            & ul{
+            ul{
                 list-style: none;
                 display: flex
             } 
 
-            & ul li{
+            ul li{
                 padding-left: 35px;
             }
 
-            & ul li a{
+            ul li a{
                 text-decoration: none;
                 color: $colorTres;
                 font-size: 1.8rem;

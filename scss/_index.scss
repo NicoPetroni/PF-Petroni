@@ -1,23 +1,5 @@
-.grid{
-    width: 85%;
-    display: grid;
-    background-color: $colorDos;
-    margin: 10px auto;
-    padding: 0px 15px 0px 15px;
-
-    & div img{
+.grid div img{
             width: 100%;
-    }
-}
-
-
-.template-area{
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(2,1fr);
-        column-gap: 15px;
-        grid-template-areas: 
-                            "im-1 im-2"
-                            "im-3 im-4";
     }
 
 .grid-inde-1{
@@ -58,7 +40,7 @@
         flex-direction: row;
         justify-content: space-around;
     
-        & figure{
+        figure{
                 width: 20%;
                 text-align: center;
                 padding: 25px 0px 20px 0px;

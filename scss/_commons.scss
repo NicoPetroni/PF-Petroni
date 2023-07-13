@@ -5,6 +5,7 @@ html{
 
 header{
     text-align: center;
+    
         & img{
               width: 50%;
               text-align: center;
@@ -64,7 +65,7 @@ footer{
     align-items: center;
     background-color:$colorUno;
 
-    & p{
+    p{
         font-size: 1.5rem;
         color:$colorCuat;
         text-align: center;
@@ -91,4 +92,9 @@ text-align: center;
 
 .tit.alin{
 text-align: left;
+}
+
+.left{
+    text-align: left;
+    margin-left: 40px;
 }
