@@ -95,6 +95,6 @@ text-align: left;
 }
 
 .left{
-    text-align: left;
-    margin-left: 40px;
+    @extend h2;
+    margin-left: 40px
 }
