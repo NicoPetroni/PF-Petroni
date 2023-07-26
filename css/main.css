@@ -195,6 +195,30 @@ footer p {
   padding-left: 40px;
 }
 
+.etiqueta {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: rgb(44, 43, 43);
+  font-size: 2rem;
+  padding-top: 15px;
+}
+
+.img {
+  width: 85%;
+  margin: 10px auto 0px auto;
+}
+
+.boton {
+  background-color: rgb(211, 149, 201);
+  color: rgb(44, 43, 43);
+  font-size: 1.5rem;
+}
+
+.cont {
+  padding-bottom: 30px;
+}
+
 .contenedor {
   width: 70%;
   padding: 0px 0px 10px 10px;
@@ -218,11 +242,8 @@ form input {
   margin: 8px 0px;
 }
 
-.formas {
-  width: 100%;
-  padding: 35px 0px 10px 0px;
-  text-align: center;
-  justify-content: space-evenly;
+.contac {
+  padding-bottom: 30px;
 }
 
 @media (width < 1282px) {
@@ -277,9 +298,12 @@ form input {
   }
 }
 @media (width < 451px) {
-  .tit_alin {
+  .tit {
     text-align: center;
   }
+}
+.bg.error {
+  background-color: rgb(199, 176, 148);
 }
 
 /*# sourceMappingURL=main.css.map */
