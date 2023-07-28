@@ -1,5 +1,5 @@
-# PreEntrega3Petroni
-Se hizo responsive en home y productos. falta terminar responsive en las demas pantallas.
+# PF-Petroni
+
 
 Link hosting: https://jade-sundae-cb8129.netlify.app
 
