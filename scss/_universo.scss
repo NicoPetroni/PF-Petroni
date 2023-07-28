@@ -1,5 +1,5 @@
 .contenedor{
-    width: 70%;
+    width: 90%;
     padding: 0px 0px 10px 10px;
     margin: 25px auto 45px auto;
     border: 2px solid $colorUno;
@@ -10,4 +10,12 @@
     font-size: 40px;
     color: $colorCuat;
     margin-left: 120px;
+}
+
+.descripcion{
+        width: 80%;
+        height: auto;
+        margin: 15px auto 45px auto;
+        text-align: center; 
+        color: $colorCuat;
 }

@@ -49,7 +49,7 @@ h3 {
 
 h4 {
   font-size: 2rem;
-  color: rgb(44, 43, 43);
+  color: rgb(34, 33, 33);
 }
 
 p {
@@ -80,7 +80,7 @@ footer {
 }
 footer p {
   font-size: 1.5rem;
-  color: rgb(44, 43, 43);
+  color: rgb(34, 33, 33);
   text-align: center;
   padding: 0px;
   margin: 0px;
@@ -88,7 +88,7 @@ footer p {
 
 .logofoot {
   font-size: 50px;
-  color: rgb(44, 43, 43);
+  color: rgb(34, 33, 33);
 }
 
 .p-p {
@@ -105,6 +105,8 @@ footer p {
 }
 
 .left {
+  color: rgb(34, 33, 33);
+  font-size: 3.5rem;
   margin-left: 40px;
 }
 
@@ -154,7 +156,7 @@ footer p {
 }
 
 .descripcion {
-  width: 60%;
+  width: 80%;
   height: auto;
   margin: 15px auto 45px auto;
   text-align: center;
@@ -167,7 +169,7 @@ footer p {
 
 .galeria {
   width: 20vw;
-  border: 1.5px solid rgb(44, 43, 43);
+  border: 1.5px solid rgb(34, 33, 33);
 }
 
 .nov {
@@ -199,7 +201,7 @@ footer p {
   display: flex;
   justify-content: center;
   text-align: center;
-  color: rgb(44, 43, 43);
+  color: rgb(34, 33, 33);
   font-size: 2rem;
   padding-top: 15px;
 }
@@ -211,8 +213,9 @@ footer p {
 
 .boton {
   background-color: rgb(211, 149, 201);
-  color: rgb(44, 43, 43);
+  color: rgb(34, 33, 33);
   font-size: 1.5rem;
+  border: none;
 }
 
 .cont {
@@ -220,7 +223,7 @@ footer p {
 }
 
 .contenedor {
-  width: 70%;
+  width: 90%;
   padding: 0px 0px 10px 10px;
   margin: 25px auto 45px auto;
   border: 2px solid rgba(245, 33, 146, 0.331);
@@ -229,8 +232,16 @@ footer p {
 
 .logouni {
   font-size: 40px;
-  color: rgb(44, 43, 43);
+  color: rgb(34, 33, 33);
   margin-left: 120px;
+}
+
+.descripcion {
+  width: 80%;
+  height: auto;
+  margin: 15px auto 45px auto;
+  text-align: center;
+  color: rgb(34, 33, 33);
 }
 
 form {
@@ -246,6 +257,36 @@ form input {
   padding-bottom: 30px;
 }
 
+.bg-error {
+  background-color: rgb(241, 236, 236);
+  padding: auto;
+  height: auto;
+}
+
+.container img {
+  width: 53%;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  padding-bottom: 35px;
+}
+
+.boton-error {
+  font-size: 2rem;
+  background-color: rgb(199, 176, 148);
+  color: rgb(34, 33, 33);
+  text-decoration: none;
+  list-style: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+
 @media (width < 1282px) {
   nav {
     width: 100%;
@@ -254,6 +295,11 @@ form input {
 @media (width < 1281px) {
   .botonera {
     margin-right: 50px;
+  }
+}
+@media (with < 1200px) {
+  .bg-error {
+    height: 100wh;
   }
 }
 @media (width < 769px) {
@@ -301,9 +347,6 @@ form input {
   .tit {
     text-align: center;
   }
-}
-.bg.error {
-  background-color: rgb(199, 176, 148);
 }
 
 /*# sourceMappingURL=main.css.map */

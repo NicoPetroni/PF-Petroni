@@ -11,14 +11,14 @@ header{
               text-align: center;
               padding: 20px 0px;
         }
- }
+}
 
- h1{
+h1{
     color: $colorDos;
     font-size: $text5;
     text-align: center;
     margin-top: 25px;
-    }
+}
 
 h2{
     font-size: $text4;
@@ -26,11 +26,11 @@ h2{
     text-align: left;
     margin-top: 30px;
     margin-bottom: 10px;
-    }
+}
 
 h3{
     font-size: $text2;
-    }
+}
 
 h4{
     font-size: $text2;
@@ -43,9 +43,7 @@ p{
     line-height: 2.5rem;
     color:$colorTres;
     margin-bottom: 50px;
-    }
-
-    
+}
 
 div svg{
     width: 40px;
@@ -96,6 +94,7 @@ text-align: left;
 
 .left{
     @extend h2;
+    color: $colorCuat;
+    font-size: $text3;
     margin-left: 40px
 }
-

@@ -9,6 +9,12 @@
     }
 }
 
+@media (with < 1200px){
+    .bg-error{
+            height: 100wh;
+    }
+}
+
 @media (width < 769px){
     .tit{
         text-align: center;

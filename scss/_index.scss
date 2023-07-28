@@ -1,41 +1,41 @@
 .grid div img{
             width: 100%;
-    }
+}
 
 .grid-inde-1{
         grid-area: im-1;
-    }
+}
 
 .grid-inde-2{
         grid-area: im-2;
-    }
+}
 
 .grid-inde-3{
         grid-area: im-3;
-    }
+}
 
 .grid-inde-4{
         grid-area: im-4;
-    }
+}
 
 .descripcion{
-        width: 60%;
+        width: 80%;
         height: auto;
         margin: 15px auto 45px auto;
         text-align: center; 
-    }
+}
 
-    .bg-body{
+.bg-body{
         background-color: $colorTres;
         margin: 5px auto 25px auto;
-    }
+}
 
-    .galeria{
+.galeria{
         width: 20vw;
         border: 1.5px solid $colorCuat;
-    }
+}
     
-    .nov{
+.nov{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -47,4 +47,4 @@
                 font-size: 2rem;
                 border: 3px;
         }
-    }
+}
